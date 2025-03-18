@@ -12,7 +12,7 @@ const ModelViewer = () => {
       <ambientLight intensity={0.5} />
       <directionalLight position={[5, 5, 5]} />
       <Model />
-      <OrbitControls />
+      <OrbitControls enableZoom={false}/>
     </Canvas>
   );
 };
